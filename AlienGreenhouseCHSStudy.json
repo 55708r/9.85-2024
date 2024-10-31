@@ -1,0 +1,588 @@
+{
+    "frames": {
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "The goal of this study is to understand whether or not children are sensitive to how things change over time. \n\nDuring the game you and your child played, the first three trials showed flowers blooming in three different ways. Some started off small and steadily got bigger over time (linear function), some started off fully in bloom, got smaller and returned to being in full bloom (quadratic function), and some went back and forth from being in full bloom to becoming small and returning to full bloom a few times (periodic function). \n\nIn the last three trials, instead of watching movies of flowers blooming over time, we instead showed still images of how flowers bloomed over the course of a week. These flowers changed in three different ways: one started off in full bloom and steadily got smaller over time (linear decrease), one started off small and got suddenly bigger and then got suddenly bigger again (stepwise function), and one started off really small and quickly became bigger and bigger (exponential function). \n\nWhy is this important? \n\nIf even young children can generate descriptions on their own of these different functions, this suggests that they have very abstract representations that might help them categorize and infer causal relationships across superficially dissimilar kinds of events. In much the same way, scientists can use abstract functions like these to represent all kinds of different phenomena— from changes in the economy to changes in the population of migratory birds to changes in rainfall. \n\nThank you so much for participating! You will receive an email from Lookit with your payment information. Please don’t hesitate to contact me at nhcoates@mit.edu if you have any additional questions or feedback.",
+                "title": "Thank you for your participation!"
+            }
+        },
+        "study-intro": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "emph": true,
+                    "text": "First, let's go over what will happen!",
+                    "title": "'Alien Greenhouse: Help Elmo Describe Flowers' study overview"
+                },
+                {
+                    "text": "During this study your child will look at movies and listen to descriptions of the scenes. After each scene, they will be asked to describe what they see."
+                },
+                {
+                    "text": "Please do not add any additional explanations to the story, and try not to influence your child's answer. There is no right answer, we are just interested in how children of this age think!"
+                }
+            ],
+            "showPreviousButton": false
+        },
+        "instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "1. Overview of how to participate in this study",
+                    "listblocks": [
+                        {
+                            "text": "You and your child will listen to 6 short prompts, each followed by a question for your child to answer."
+                        },
+                        {
+                            "text": "If they are comfortable using the mouse to click their answer they can do it themselves, or you can wait until they are done responding and you can click ‘Next’ to move on."
+                        },
+                        {
+                            "text": "While you go through the task together, please try not to influence or correct their answers. We are interested in how your child describes what they see, rather than whether or not they say what adults might consider the 'correct' answer."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please try playing this sample audio to make sure you'll be able to hear the story.",
+                    "title": "2. Adjust your speakers",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "3. Make sure we can see you",
+                    "listblocks": [
+                        {
+                            "text": "Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible."
+                        },
+                        {
+                            "text": "This isn't a Skype call - no one in the lab can see you - but the recorded video of your participation will be sent to the lab to help with data analysis. It's helpful for us to be able to see if your child was pointing or looking confused, for example."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Next"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": ""
+        },
+        "video-intro": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "Movie1_Welcome"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": false,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "nextButtonText": "Please wait for your child to answer, and then press 'Next'"
+        },
+        "Sofia-welcome": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "Intro_video"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": false,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "Block-Towers": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "Movie2_BlockTowers"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": false,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "inclusion1": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "Movie3_InclusionLeft"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": true,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "parentTextBlock": {
+                "css": {
+                    "font": "13pt sans-serif"
+                },
+                "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                "title": "For Parents"
+            },
+            "nextButtonText": "Next"
+        },
+        "inclusion2": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "Movie4_InclusionRight"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": true,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "parentTextBlock": {
+                "css": {
+                    "font": "13pt sans-serif"
+                },
+                "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                "title": "For Parents"
+            },
+            "nextButtonText": "Next"
+        },
+        "trymore": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "loop": false,
+                "position": "fill",
+                "source": "Movie5_ReadyToTry"
+            },
+            "backgroundColor": "white",
+            "autoProceed": false,
+            "requireVideoCount": 1,
+            "doRecording": false,
+            "frameOffsetAfterPause": 0,
+            "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "nextButtonText": "Next"
+        },
+        "all-trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO1"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO2",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO3",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO4"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO5"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO6",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO7",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO8"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO9"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO10",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO11",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO12"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO13"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO14"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO15",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO16"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO17"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO18",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO19"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO20"
+                    },
+                    "doRecording": false
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO21",
+                        "nextButtonText": "Next"
+                    },
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
+                    },
+                    "doRecording": true
+                }
+            ],
+            "parameterSets": [
+                {
+                    "VIDEO1": "Movie6_Trial1",
+                    "VIDEO2": "Movie7_Trial1a",
+                    "VIDEO3": "Movie8_Trial1b",
+                    "VIDEO4": "5more",
+                    "VIDEO5": "Movie9_Trial2",
+                    "VIDEO6": "Movie10_Trial2a",
+                    "VIDEO7": "Movie11_Trial2b",
+                    "VIDEO8": "4more",
+                    "VIDEO9": "Movie12_Trial3",
+                    "VIDEO10": "Movie13_Trial3a",
+                    "VIDEO11": "Movie14_Trial3b",
+                    "VIDEO12": "3more",
+                    "VIDEO13": "Movie15_FlowersWeek",
+                    "VIDEO14": "Movie16_Trial4",
+                    "VIDEO15": "Movie17_Trial4a",
+                    "VIDEO16": "2more",
+                    "VIDEO17": "Movie18_Trial5",
+                    "VIDEO18": "Movie19_Trial5a",
+                    "VIDEO19": "1more",
+                    "VIDEO20": "Movie20_Trial6",
+                    "VIDEO21": "Movie21_Trial6a"
+                },
+                {
+                    "VIDEO1": "Movie6_Trial1",
+                    "VIDEO2": "Movie7_Trial1a",
+                    "VIDEO3": "Movie8_Trial1b",
+                    "VIDEO4": "5more",
+                    "VIDEO5": "Movie12_Trial3",
+                    "VIDEO6": "Movie13_Trial3a",
+                    "VIDEO7": "Movie14_Trial3b",
+                    "VIDEO8": "4more",
+                    "VIDEO9": "Movie9_Trial2",
+                    "VIDEO10": "Movie10_Trial2a",
+                    "VIDEO11": "Movie11_Trial2b",
+                    "VIDEO12": "3more",
+                    "VIDEO13": "Movie15_FlowersWeek",
+                    "VIDEO14": "Movie16_Trial4",
+                    "VIDEO15": "Movie17_Trial4a",
+                    "VIDEO16": "2more",
+                    "VIDEO17": "Movie20_Trial6",
+                    "VIDEO18": "Movie21_Trial6a",
+                    "VIDEO19": "1more",
+                    "VIDEO20": "Movie18_Trial5",
+                    "VIDEO21": "Movie19_Trial5a"
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-video",
+                "backgroundColor": "white",
+                "autoProceed": false,
+                "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+                "videoTypes": [
+                    "mp4"
+                ],
+                "requiredDuration": 0,
+                "requireAudioCount": 0,
+                "requireVideoCount": 1
+            }},
+        "End": {
+                "kind": "exp-lookit-video",
+                "video": {
+                    "loop": false,
+                    "position": "fill",
+                    "source": "End"
+                },
+                "backgroundColor": "white",
+                "autoProceed": false,
+                "requireVideoCount": 1,
+                "doRecording": false,
+                "frameOffsetAfterPause": 0,
+                "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+                "videoTypes": [
+                    "webm",
+                    "mp4"
+                ]
+            },
+        "Sofia-outro": {
+                "kind": "exp-lookit-video",
+                "video": {
+                    "loop": false,
+                    "position": "fill",
+                    "source": "Outro_video"
+                },
+                "backgroundColor": "white",
+                "autoProceed": false,
+                "requireVideoCount": 1,
+                "doRecording": false,
+                "frameOffsetAfterPause": 0,
+                "baseDir": "https://raw.githubusercontent.com/nicolehope5/lookit-stimuli-template/master/",
+                "videoTypes": [
+                    "webm",
+                    "mp4"
+                ]
+            },
+        "video-consent": {
+                "kind": "exp-lookit-video-consent",
+                "PIName": "Laura Schulz",
+                "datause": "We are interested in how children describe how different flowers bloom. A research assistant will watch your video and mark down your child's answer to the questions at the end of each prompt, as well as other information such as interactions between you and your child during the story.",
+                "payment": "After you finish the study, we will email you a $5 Amazon gift card within three days. To be eligible for the gift card your child must NOT have been in other Alien Greenhouse studies, be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
+                "purpose": "This study is children’s sensitivity to how things change over time.",
+                "PIContact": "Nicole Coates at nhcoates@mit.edu",
+                "procedures": "You and your child will go through 6 short scenes and your child will be asked a question after each one. There are no anticipated risks associated with participating.",
+                "institution": "MIT"
+            },
+        "info-survey": {
+                "kind": "exp-lookit-survey",
+                "formSchema": {
+                    "schema": {
+                        "type": "object",
+                        "title": "Thank you for playing! If you'd like to give us feedback, please do so below.",
+                        "properties": {
+                            "instructions": {
+                                "type": "string",
+                                "title": "Were the instructions clear?",
+                                "default": ""
+                            },
+                            "interest": {
+                                "type": "string",
+                                "title": "Was your child interested in the game?",
+                                "default": ""
+                            },
+                            "general_feedback": {
+                                "type": "string",
+                                "title": "Do you have any additional feedback?",
+                                "default": ""
+                            }
+                        }
+                    }
+                },
+                "nextButtonText": "Next"
+            }
+        
+    },
+    "sequence": [
+        "study-intro",
+        "video-config",
+        "video-consent",
+        "instructions",
+        "Sofia-welcome",
+        "video-intro",
+        "Block-Towers",
+        "inclusion1",
+        "inclusion2",
+        "trymore",
+        "all-trials",
+        "End",
+        "Sofia-outro",
+        "info-survey",
+        "exit-survey"
+
+    ]
+}
